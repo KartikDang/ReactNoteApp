@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+  margin-top: 32px;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.Del {
+  float: right;
+  border: 0;
+  background: transparent;
+  color: #f5ba13;
+}
+
+.Del:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.inputOuter {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  float: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 2%;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 2%;
+}
+
+input,
+textarea {
+  width: 100%;
+  resize: none;
+  border: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  outline: none;
+}
+
+form button {
+  border-radius: 50%;
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  width: 36px;
+  height: 36px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
